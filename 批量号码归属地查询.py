@@ -17,6 +17,7 @@ choice = input('请确认是不是手机号的数据（Y/N）:\n')
 if choice == 'y' or choice =='Y':
     pass
 else:
+    print("请将手机号码放在第四列")
     exit()
 df = df.values.tolist()
 for i in range(len(df)):
